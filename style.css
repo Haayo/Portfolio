@@ -15,8 +15,9 @@ body , html{
     color:white;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%); 
     color:white;
+    position:absolute;
 }
 .about img {
     display: block;

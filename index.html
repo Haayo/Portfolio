@@ -1,93 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal Portolio Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portolio Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">HOME</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="#home-section">HOME</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">ABOUT ME <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about-section">ABOUT ME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PROJECTS</a>
+        <a class="nav-link" href="#project-section">PROJECTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CONTACT</a>
+        <a class="nav-link" href="#contact-section">CONTACT</a>
       </li>
     </ul>
-    
+
 </nav>
 
 
 <body>
-   <div class="image">
-     <div class="text-intro">
-       <h1>I'm Juma Immaculate Haayo</h1>
-       <p>I am a 22 year old lady born and raised in Mombasa County.I am a Luhya from Budalang'i 
-        Busia County whose parents are Cleophas Juma and Jacinta Juma. I am the second 
-        last born of five siblings, 2 boys and 3 girls</p>
-     </div>
-   </div>
-   
-   <div class="about ">
-    <h1 class="text-center"><b>ABOUT ME</b></h1>
-    <img src="Image.jpg" alt="profile" style="width: 500px; " class='pic'>
-
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <p>I am currently in 4th year at Strathmore University pursuing a Bachelor in Business Information Technology.BBIT is a technical course that has greatly
-          enabled me to acquire both IT and Business skills that will enable me to work well in the job market.I am a front end developer and my main interest is
-          to be a full stack developer.I would love to venture into Software Engineering and Mobile Applications. They encourage me to build applications that I relate  with.
-        </p>
+  <div class="image">
+    <div id="home-section">
+      <div class="text-intro">
+        <h1>I'm Juma Immaculate Haayo</h1>
+        <p>I am a 22 year old lady born and raised in Mombasa County.I am a Luhya from Budalang'i
+          Busia County whose parents are Cleophas Juma and Jacinta Juma. I am the second
+          last born of five siblings, 2 boys and 3 girls</p>
       </div>
     </div>
-   </div>
+  </div>
 
-   <div class="projects">
-    <h2 class="text-center"><b>PROJECTS</b></h2>
-    <!--copy from here-->
-    <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <a href="https://github.com/Haayo/county_mix_134111.php">
-                <h3>County Mix</h3>
-                <img src="county-mix.gif" alt="profile" style="width:500px" class="pic">
-            </a>
+  <div class="about ">
+    <div id="about-section">
+      <h1 class="text-center"><b>ABOUT ME</b></h1>
+      <img src="Image.jpg" alt="profile" style="width: 500px; " class='pic'>
+
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p>I am currently in 4th year at Strathmore University pursuing a Bachelor in Business Information
+            Technology.BBIT is a technical course that has greatly
+            enabled me to acquire both IT and Business skills that will enable me to work well in the job market.I am a
+            front end developer and my main interest is
+            to be a full stack developer.I would love to venture into Software Engineering and Mobile Applications. They
+            encourage me to build applications that I relate with.
+          </p>
         </div>
+      </div>
     </div>
-    <!--until here-->
   </div>
 
-<div class="container">
-  <h3>CONTACT FORM</h3>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+  <div class="projects">
+    <div id="project-section">
+      <h2 class="text-center"><b>PROJECTS</b></h2>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <a href="https://github.com/Haayo/county_mix_134111.php">
+            <h3>County Mix</h3>
+            <img src="county-mix.gif" alt="profile" style="width:500px" class="pic">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 
-         <script src="js/script.js"></script>
-  </body>
-  </html>
+  <div class="container">
+    <div id="contact-section">
+      <h3>CONTACT FORM</h3>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Country</label>
+
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
